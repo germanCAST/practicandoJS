@@ -12,6 +12,7 @@ const usuarios = [
 const lista = usuarios
   .filter((u) => u.edad > 17)
   .map((usuario) => `<li>${usuario.nombre}</li>`);
+
 const html = `<ol>${lista.join("")}</ol>`;
 console.log(html);
 
@@ -21,3 +22,5 @@ console.log(html);
 // }));
 
 // console.log(mapped);
+
+//Muy Util para desarrollo, estos codigos se pueden encadenar
